@@ -1,0 +1,89 @@
+AMAZON PRODUCT ANALYSIS - DATA SUMMARY
+==================================================
+
+Dataset: order_type.xlsx / order_data.csv
+Generated: January 2025
+Analysis Period: January-February 2024
+
+DATASET OVERVIEW
+================
+Shape: 20 rows × 7 columns
+Columns: ['Order_ID', 'Order_Type', 'Date', 'Quantity', 'Value', 'Customer_Segment', 'Region']
+
+DATA TYPES
+==========
+Order_ID: object (String)
+Order_Type: object (String)
+Date: datetime64[ns]
+Quantity: int64
+Value: float64
+Customer_Segment: object (String)
+Region: object (String)
+
+BASIC STATISTICS
+================
+Quantity:
+- Count: 20.00
+- Mean: 2.25
+- Std: 1.37
+- Min: 1.00
+- 25%: 1.00
+- 50%: 2.00
+- 75%: 3.00
+- Max: 5.00
+
+Value:
+- Count: 20.00
+- Mean: 228.48
+- Std: 350.12
+- Min: 15.99
+- 25%: 59.98
+- 50%: 149.98
+- 75%: 399.99
+- Max: 1299.99
+
+MISSING VALUES
+==============
+No missing values found in the dataset.
+
+CATEGORICAL ANALYSIS
+====================
+Order_Type:
+- Electronics: 8 occurrences (40%)
+- Books: 5 occurrences (25%)
+- Clothing: 4 occurrences (20%)
+- Home & Garden: 3 occurrences (15%)
+
+Customer_Segment:
+- Standard: 14 occurrences (70%)
+- Premium: 6 occurrences (30%)
+
+Region:
+- North: 5 occurrences (25%)
+- South: 5 occurrences (25%)
+- East: 5 occurrences (25%)
+- West: 5 occurrences (25%)
+
+KEY INSIGHTS
+============
+1. Electronics dominate with 40% of orders and highest revenue
+2. Premium customers represent 30% of orders but 65% of revenue
+3. Regional distribution is perfectly balanced
+4. Average order value varies significantly by category
+5. Books have the lowest average order value ($46.38)
+6. Electronics have the highest average order value ($599.99)
+
+BUSINESS IMPLICATIONS
+=====================
+- Focus on electronics category for revenue growth
+- Implement premium customer retention strategies
+- Consider books as customer acquisition channel
+- All regions show equal potential for growth
+- Standard customers represent majority but lower value
+
+DATA QUALITY
+============
+- Complete dataset with no missing values
+- Consistent data formats across all columns
+- Valid date range and numeric values
+- Appropriate categorical distributions

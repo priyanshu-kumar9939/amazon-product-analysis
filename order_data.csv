@@ -1,0 +1,21 @@
+Order_ID,Order_Type,Date,Quantity,Value,Customer_Segment,Region
+ORD-001,Electronics,2024-01-15,2,299.99,Premium,North
+ORD-002,Books,2024-01-16,1,15.99,Standard,South
+ORD-003,Clothing,2024-01-17,3,89.97,Standard,East
+ORD-004,Electronics,2024-01-18,1,599.99,Premium,West
+ORD-005,Home & Garden,2024-01-19,2,149.98,Standard,North
+ORD-006,Books,2024-01-20,5,79.95,Standard,South
+ORD-007,Electronics,2024-01-21,1,1299.99,Premium,East
+ORD-008,Clothing,2024-01-22,4,199.96,Standard,West
+ORD-009,Home & Garden,2024-01-23,1,89.99,Standard,North
+ORD-010,Electronics,2024-01-24,2,799.98,Premium,South
+ORD-011,Books,2024-01-25,3,47.97,Standard,East
+ORD-012,Clothing,2024-01-26,2,59.98,Standard,West
+ORD-013,Electronics,2024-01-27,1,199.99,Standard,North
+ORD-014,Home & Garden,2024-01-28,3,179.97,Standard,South
+ORD-015,Books,2024-01-29,1,24.99,Standard,East
+ORD-016,Electronics,2024-01-30,1,399.99,Premium,West
+ORD-017,Clothing,2024-01-31,5,249.95,Standard,North
+ORD-018,Home & Garden,2024-02-01,2,119.98,Standard,South
+ORD-019,Books,2024-02-02,4,63.96,Standard,East
+ORD-020,Electronics,2024-02-03,1,899.99,Premium,West
