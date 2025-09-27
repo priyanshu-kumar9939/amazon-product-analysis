@@ -17,10 +17,16 @@ amazon-product-analysis/
 ├── order_data.csv           # Processed data (CSV format)
 ├── data_summary.txt         # Data analysis summary
 ├── analysis_insights.md     # Key findings and insights
-└── visualizations/          # Charts and graphs
-    ├── order_trends.png
-    ├── category_analysis.png
-    └── performance_metrics.png
+├── images/                  # Power BI visualizations and screenshots
+│   ├── dashboard_overview.png
+│   ├── kpi_cards.png
+│   ├── order_type_distribution.png
+│   ├── revenue_by_order_type.png
+│   ├── customer_segment_analysis.png
+│   └── regional_performance.png
+├── analyze_data.py          # Data analysis script
+├── generate_charts.py       # Visualization generation script
+└── simple_charts.py         # Simple chart creation script
 ```
 
 ## 📊 Dataset Information
@@ -101,13 +107,33 @@ python analyze_data.py
 
 ## 📊 Visualizations
 
-*[Visualizations will be added after Power BI analysis]*
+### 🎯 Dashboard Overview
+![Dashboard Overview](images/dashboard_overview.png)
+
+### 📈 Key Performance Indicators
+![KPI Cards](images/kpi_cards.png)
+
+### 📊 Order Analysis
+![Order Type Distribution](images/order_type_distribution.png)
+*Distribution of orders across different product categories*
+
+![Revenue by Order Type](images/revenue_by_order_type.png)
+*Revenue breakdown by product category*
+
+### 👥 Customer Analysis
+![Customer Segment Analysis](images/customer_segment_analysis.png)
+*Distribution of Standard vs Premium customers*
+
+### 🌍 Regional Performance
+![Regional Performance](images/regional_performance.png)
+*Revenue performance across different regions*
 
 ### Dashboard Components
-- **Order Type Distribution Chart**
-- **Time Series Analysis**
-- **Category Performance Metrics**
-- **Customer Segmentation Analysis**
+- **Order Type Distribution Chart** - Shows the breakdown of orders by category
+- **Revenue Analysis** - Displays revenue performance by order type
+- **Customer Segmentation** - Illustrates customer distribution
+- **Regional Performance** - Shows geographic performance metrics
+- **KPI Cards** - Key performance indicators at a glance
 
 ## 📈 Business Impact
 
@@ -161,14 +187,25 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📊 Sample Data Preview
 
-*[Sample data will be displayed here after analysis]*
+The dataset contains 20 sample orders with the following structure:
 
 ```csv
-Order_ID,Order_Type,Date,Quantity,Value
-ORD-001,Electronics,2024-01-15,2,299.99
-ORD-002,Books,2024-01-16,1,15.99
+Order_ID,Order_Type,Date,Quantity,Value,Customer_Segment,Region
+ORD-001,Electronics,2024-01-15,2,299.99,Premium,North
+ORD-002,Books,2024-01-16,1,15.99,Standard,South
+ORD-003,Clothing,2024-01-17,3,89.97,Standard,East
+ORD-004,Electronics,2024-01-18,1,599.99,Premium,West
+ORD-005,Home & Garden,2024-01-19,2,149.98,Standard,North
 ...
 ```
+
+### 📈 Quick Stats
+- **Total Orders**: 20
+- **Total Revenue**: $4,569.55
+- **Average Order Value**: $228.48
+- **Categories**: Electronics (40%), Books (25%), Clothing (20%), Home & Garden (15%)
+- **Customer Segments**: Standard (70%), Premium (30%)
+- **Regions**: North, South, East, West (25% each)
 
 ---
 
